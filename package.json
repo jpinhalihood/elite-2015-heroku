@@ -1,0 +1,27 @@
+{
+  "name": "elite-2015-heroku",
+  "version": "1.0.0",
+  "description": "Elite DJ 2015 for Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpinhalihood/elite2015-heroku.git"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },  
+  "author": "Jeff Price",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpinhalihood/elite2015-heroku/issues"
+  },
+  "homepage": "https://github.com/jpinhalihood/elite2015-heroku",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "ejs": "2.3.3",
+    "express": "4.13.3"    
+  }
+}
