@@ -8,10 +8,14 @@
 			  text-align: center;
 		}
 	</style>
-	<script language="javascript">
-document.getElementById("facebooklink").onclick = function () {
-    location.href = "https://www.facebook.com/elitedjav";
-};	
+	<script>
+	function addOnClickForId(id, url) {
+		document.getElementById(id).onclick = function () {
+	    	location.href = url;
+		};		
+	}	
+	
+	addOnClickForId("facebooklink", "https://www.facebook.com/elitedjav");
 	</script>
 </head>
 	<body>
@@ -37,7 +41,7 @@ document.getElementById("facebooklink").onclick = function () {
 				<div class="col-sm-12 col-md-4">
 					<img class="img-circle" src="/corpevents.jpg" alt="Corporate Events image" width="140" height="140">            
 					<h4>Corporate/Special Events</h4>
-					<p>Whether you need a DJ, an AV technician to operate sound, lights and projection systems or simply some equipment rentals to supplement your special event, Steven Lunn help you make your special event a success by ensuring that you don’t have to be worried about the tedious audio/visual details.</p>
+					<p>Whether you need a DJ, an AV technician to operate sound, lights and projection systems or simply some equipment rentals to supplement your special event, Steven Lunn can help you make your special event a success by ensuring that you don’t have to be worried about the tedious audio visual details.</p>
 				</div>
 			
 				<div class="col-sm-12 col-md-4">
@@ -46,8 +50,7 @@ document.getElementById("facebooklink").onclick = function () {
 					<p>Phone:&nbsp;<a href="tel:+19024970727">1-902-497-0727</a></p>
 					<p>Email:&nbsp;<a href="Info@StevenLunn.ca">Info@StevenLunn.ca</a></p>
 					<p>Office Hours:<br>Monday-Friday, 10am-7pm<br>Saturday/Sunday, 11am-5pm</p>
-					<p><img src="">:&nbsp;<a href="https://www.facebook.com/elitedjav">https://www.facebook.com/elitedjav</a></p>
-					<p><a class="btn btn-block btn-social btn-sm btn-facebook"><i class="fa fa-facebook"></i>Find us on Faceboook</a></p>
+
 					<p><a id="facebooklink" class="btn btn-social-icon btn-sm btn-facebook"><i class="fa fa-facebook"></i></a></p>
 				</div>            				
 			</div>			
